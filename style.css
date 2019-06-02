@@ -1,0 +1,132 @@
+body {
+    background: #161616;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 400px;
+    background-color: #161616;
+    padding: 10px;
+
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+    margin: auto;
+
+
+}
+
+.intro {
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+h1 {
+    color: beige;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Bungee', cursive;
+}
+
+p {
+    font-weight: 600;
+}
+
+#first {
+    margin-top: 10px;
+    color: #C7493A;
+}
+
+#second {
+    color: #689775;
+
+}
+
+#third {
+    color: #917164;
+    margin-bottom: 30px;
+}
+
+
+#enter {
+    border: none;
+    color: #161616;
+    background-color: #161616;
+    width: 0px;
+    height: 0px;
+}
+
+ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #C7493A;
+    transition: all 0.33s ease;
+    -webkit-transition: all 0.33s ease;
+    -moz-transition: all 0.33s ease;
+    -ms-transition: all 0.33s ease;
+    -o-transition: all 0.33 ease;
+    
+}
+
+li:hover {
+    background: #689775;
+}
+
+li>button {
+    font-weight: normal;
+    background: none;
+    color: #917164;
+    border: none;
+    float: right;
+    background-color: #161616;
+    border-radius: 30px;
+    font-weight: 800;
+}
+
+input {
+    border-radius: 15px;
+    min-width: 300px;
+    padding: 10px;
+    border: none;
+    color: #161616;
+    background-color: beige;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Bungee', cursive;
+}
+
+
+.done {
+    background: #689775 !important;
+    color: #161616;
+}
+
+.delete {
+    display: none;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited,
+footer {
+    color: #AD8174;
+    text-decoration: none;
+    font-size: 9px;
+    font-family: 'Bungee', cursive;
+}
