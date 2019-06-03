@@ -7,15 +7,16 @@ body {
 .container {
     display: grid;
     grid-template-columns: 200px 400px;
-    background-color: #161616;
     padding: 10px;
 
-    position: absolute;
-    left: 10%;
-    right: 10%;
-    top: 10%;
-    bottom: 10%;
-    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 200px;
+    border-radius: 40px;
+    height: 100%;
+
 
 
 }
@@ -80,7 +81,7 @@ li {
     -moz-transition: all 0.33s ease;
     -ms-transition: all 0.33s ease;
     -o-transition: all 0.33 ease;
-    
+
 }
 
 li:hover {
